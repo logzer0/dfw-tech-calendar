@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	meetupGCal.ConfigFilePath = "/repos/dfw-tech-calendar/keys.json"
+	meetupGCal.ConfigFilePath = "keys_sample.json"
 	cron.NewDailyJob(3, 0, 0, func(time.Time) {
 		fmt.Println("Updating the calendar. Current time", time.Now())
 		meetupGCal.UpdateCalendar()
