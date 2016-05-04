@@ -3,4 +3,4 @@
 *.txt
 keys.json
 datapull/
-src/client_secret.json
+dfw-tech-calendar/client_secret.json
