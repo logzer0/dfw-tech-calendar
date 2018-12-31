@@ -1,6 +1,0 @@
-{
-	"calendarId":"your calendarid",
-	"meetupKey": "your meetup api key",
-	"groupsFile":"https://raw.githubusercontent.com/logzer0/dfw-tech-calendar/master/groups.csv",
-	"zip": "zip code"
-}
